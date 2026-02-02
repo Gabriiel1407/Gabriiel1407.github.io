@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+header {
+    color:white;
+    background-color: black; 
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; /*centers the block elemment*/
+    border-radius: 5px; /*round the borders of a block*/
+    border: 3px solid gold;
+    padding: 20px; /*space between border and content*/
+    font-family: 'Bitcount Single', monospace;
+}
+
+#contactUs {
+    text-align: center;
+    color: silver;
+    font-family: 'Bitcount Single', monospace;
+}
+
+.navigation {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Bitcount Single', monospace;
+}
+
+.navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navigation a.active {
+    color: rgb(255, 119, 0);
+}
+
+.navigation a:hover {
+    color: silver;
+}
+
+hr {
+    border: 2px solid gold;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#contactForm {
+  background-color: rgb(255, 246, 181);
+  display: block;
+  margin: 0 auto;
+  border: 5px solid gold;
+  border-radius: 10px;
+}
+
+.contenu {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Bitcount Single', monospace;
+    color: black;
+}
+
+.contenu-lists p{
+    text-align: center;
+    width: 18%;
+    margin: 0 auto;
+    font-family: 'Bitcount Single', monospace;
+    color: black;
+}
+
+.contenu-lists ul{
+    text-align: left;
+    width: 18%;
+    margin: 0 auto;
+    font-family: 'Bitcount Single', monospace;
+    color: black;
+}
+
+.imageDegree {
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#divDegree {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center; 
+}
+
+.caption {
+    text-align: center;
+    font-family: 'Bitcount Single', monospace;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.tableau {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Bitcount Single', monospace;
+  table-layout: fixed;
+}
+
+.tableau th {
+  width: 50%;
+  text-align: center;
+  background: black;
+  color: silver;
+  padding: 12px;
+  border: 3px solid gold;
+  font-family: 'Bitcount Single', monospace;
+}
+
+.tableau td {
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+  border: 3px solid gold;
+}
+
+.tableau tr:hover {
+  background-color: #f3f4f6;
+}
+
+footer {
+  background-color: #000;
+  color: silver;
+  border: 3px solid gold;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Bitcount Single', monospace;
+}
+
+footer img {
+  width: 80px;
+  margin-bottom: 10px;
+  
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 65%;
+}
+
+.form-style {
+  max-width: 350px;
+  margin: 40px auto;
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid gold;
+  color: silver;
+  font-family: 'Bitcount Single', monospace;
+  box-shadow: 0 4px 15px rgba(255,215,0,0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
