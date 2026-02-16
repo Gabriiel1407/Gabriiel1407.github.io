@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;            /* page prend toute la hauteur */
+  display: flex;                /* flex vertical */
+  flex-direction: column;
+  justify-content: space-between; /* pousse le footer en bas */
+  background-color: black;
+  color: silver;
+  text-align: center;
+  font-family: 'Bitcount Single', monospace;
+}
+
+/* HEADER */
+header {
+  background-color: black;
+  color: white;
+  border: 3px solid gold;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* MAIN CONTAINER */
+#main {
+  background-color: #111;
+  border: 3px solid gold;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  margin: 30px auto;
+}
+
+/* INPUT */
+input {
+  padding: 5px;
+  border: 2px solid gold;
+  border-radius: 5px;
+  background-color: black;
+  color: gold;
+  text-align: center;
+}
+
+/* BUTTONS */
+button {
+  padding: 6px 12px;
+  margin: 5px;
+  border: 2px solid gold;
+  border-radius: 5px;
+  background-color: black;
+  color: gold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* FEEDBACK */
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* STATS */
+p {
+  margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: silver;
+  text-align: center;
+  padding: 10px 20px;         /* petit padding */
+  border-top: 2px solid gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+footer img {
+  width: 50px;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 70%;
+}
