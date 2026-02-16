@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
 
-/* GLOBAL */
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  min-height: 100vh;            /* page prend toute la hauteur */
-  display: flex;                /* flex vertical */
+  min-height: 100vh;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; /* pousse le footer en bas */
+  justify-content: space-between;
   background-color: black;
   color: silver;
   text-align: center;
   font-family: 'Bitcount Single', monospace;
 }
 
-/* HEADER */
 header {
   background-color: black;
   color: white;
@@ -28,7 +27,6 @@ header {
   width: 80%;
 }
 
-/* MAIN CONTAINER */
 #main {
   background-color: #111;
   border: 3px solid gold;
@@ -38,7 +36,6 @@ header {
   margin: 30px auto;
 }
 
-/* INPUT */
 input {
   padding: 5px;
   border: 2px solid gold;
@@ -48,7 +45,6 @@ input {
   text-align: center;
 }
 
-/* BUTTONS */
 button {
   padding: 6px 12px;
   margin: 5px;
@@ -64,23 +60,20 @@ button:hover {
   color: black;
 }
 
-/* FEEDBACK */
 #feedback {
   margin-top: 10px;
   font-weight: bold;
 }
 
-/* STATS */
 p {
   margin: 8px 0;
 }
 
-/* FOOTER */
 footer {
   background-color: black;
   color: silver;
   text-align: center;
-  padding: 10px 20px;         /* petit padding */
+  padding: 10px 20px;
   border-top: 2px solid gold;
   display: flex;
   flex-direction: column;

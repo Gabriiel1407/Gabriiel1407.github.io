@@ -22,7 +22,6 @@ function initializeGame() {
 }
 
 
-
 function checkGuess() {
     let feedback = document.querySelector("#feedback");
     let playerGuess = Number(document.querySelector("#playerGuess").value);
