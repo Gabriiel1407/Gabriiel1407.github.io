@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PC Components Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        PC Components Quiz
+    </header>
+    <section class="contenu">
+    <h2>Test Your Knowledge</h2>
+    <p id="timesTaken"></p>
+    <form id="quizForm">
+        <div class="question">
+            <p>1) What does CPU stand for?</p>
+            <label>
+                <input type="radio" name="q1" value="a">
+                Central Processing Unit
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q1" value="b">
+                Computer Personal Unit
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q1" value="c">
+                Central Power Utility
+            </label>
+            <span class="feedback" id="f1"></span>
+        </div>
+        <div class="question">
+            <p>2) Which of the following are storage devices?</p>
+            <div id="q2options"></div>
+            <span class="feedback" id="f2"></span>
+        </div>
+        <div class="question">
+            <p>3) Which component handles graphics processing?</p>
+            <select name="q3">
+                <option value="">Select one</option>
+                <option value="a">RAM</option>
+                <option value="b">GPU</option>
+                <option value="c">Power Supply</option>
+            </select>
+            <span class="feedback" id="f3"></span>
+        </div>
+        <div class="question">
+            <p>4) What is the main circuit board called?</p>
+            <input type="text" name="q4">
+            <span class="feedback" id="f4"></span>
+        </div>
+        <div class="question">
+            <p>5) Which component provides power?</p>
+            <label>
+                <input type="radio" name="q5" value="a">
+                GPU
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q5" value="b">
+                Power Supply
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q5" value="c">
+                SSD
+            </label>
+            <span class="feedback" id="f5"></span>
+        </div>
+        <br>
+        <button type="button" id="submitBtn">Submit Quiz</button>
+    </form>
+    <h3 id="totalScore"></h3>
+    <h3 id="congrats"></h3>
+    </section>
+    <footer>
+        <p>CST336 - Quiz | Gabriel</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine - Royal Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         ROYAL CASINO - SLOT MACHINE 
+    </header>
+
+    <div class="contenu">
+        <div class="game-container">
+            <div class="balance-section">
+                <h2>Balance: <span id="balance">1000</span> $</h2>
+                <p id="message">Welcome! Place your bet and spin the wheels!</p>
+            </div>
+
+            <div class="bet-section">
+                <label for="betAmount">Bet Amount:</label>
+                <input type="number" id="betAmount" min="10" max="500" value="50" step="10">
+                <button id="spinButton"> SPIN </button>
+            </div>
+
+            <div class="slot-machine">
+                <div class="slot" id="slot1">
+                    <img src="" alt="symbol 1" id="symbol1">
+                </div>
+                <div class="slot" id="slot2">
+                    <img src="" alt="symbol 2" id="symbol2">
+                </div>
+                <div class="slot" id="slot3">
+                    <img src="" alt="symbol 3" id="symbol3">
+                </div>
+            </div>
+
+            <div class="results">
+                <h3 id="result"></h3>
+                <p id="winAmount"></p>
+            </div>
+
+            <div class="stats">
+                <h3>Statistics</h3>
+                <p>Spins: <span id="spinsCount">0</span></p>
+                <p>Wins: <span id="winsCount">0</span></p>
+                <p>Biggest Win: <span id="biggestWin">0</span> $</p>
+            </div>
+
+            <button id="resetButton"> RESET </button>
+        </div>
+    </div>
+
+    <footer>
+        CST336 - Homework 2 - ROYAL CASINO | Gabriel
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
