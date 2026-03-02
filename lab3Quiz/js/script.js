@@ -70,10 +70,10 @@ document.addEventListener("DOMContentLoaded", function() {
     function showFeedback(id, correct){
         let element = document.getElementById(id);
         if (correct) {
-            element.innerHTML = '✓ Correct';
+            element.innerHTML = 'Correct';
             element.style.color = 'lime';
         } else {
-            element.innerHTML = '✗ Incorrect';
+            element.innerHTML = 'Incorrect';
             element.style.color = 'red';
         }
     }

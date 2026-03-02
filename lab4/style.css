@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: black;
+  color: silver;
+  font-family: 'Bitcount Single', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+fieldset {
+  width: 500px;
+  background-color: #111;
+  border: 3px solid gold;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+legend {
+  color: gold;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 15px 0;
+  background-color: black;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 5px;
+  font-family: 'Bitcount Single', monospace;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+  outline: none;
+  background-color: black;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: gold;
+  color: black;
+}
+
+span {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+#zipMessage {
+  color: red;
+}
+
+#usernameMessage {
+  font-weight: bold;
+}
+
+#passwordSuggestion {
+  color: rgb(0, 184, 0);
+  font-size: 13px;
+}
+
+#city,
+#latitude,
+#longitude {
+  color: gold;
+  font-weight: bold;
+}
