@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  background: gray;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}

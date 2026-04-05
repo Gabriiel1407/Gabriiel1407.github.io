@@ -38,7 +38,7 @@ async function getCityInfo() {
   }
 } 
 
-
+ 
 async function loadStates() {
   let url = "https://csumb.space/api/allStatesAPI.php";
   let response = await fetch(url);
